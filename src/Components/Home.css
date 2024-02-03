@@ -1,0 +1,190 @@
+.weather-app {
+    padding-top: 10px;
+    background-image: url('../images/cloud.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.main-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.heading {
+    font-family: 'Workbench', sans-serif;
+    color: whitesmoke;
+    font-size: 50px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+
+}
+
+.input-city {
+    min-width: 26rem;
+    min-height: 1rem;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #fbf9f9;
+    border-radius: 8px 0 0 8px;
+
+}
+
+.input-city:focus {
+    outline: none;
+}
+
+.input-city::placeholder {
+    text-decoration: none;
+
+}
+
+.search-module {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.city-search {
+    margin-left: 32.5vw;
+    position: relative;
+}
+
+.search-button {
+    cursor: pointer;
+    min-width: 3rem;
+    min-height: 2.5rem;
+    border-radius: 0 0.8rem 0.8rem 0;
+    color: rgb(22, 21, 21);
+    background: #fff;
+    border: 0;
+    font-size: 1rem;
+    font-family: "Roboto";
+    position: absolute;
+    margin-left: -3px;
+
+}
+
+.unit-toggle {
+    display: flex;
+    background-color: whitesmoke;
+    width: 5.185rem;
+    min-height: 2rem;
+    border-radius: 30px;
+    margin-left: 19.8rem;
+}
+
+.toggle-option {
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+    font-family: "Roboto";
+}
+
+.toggle-option.active {
+    background: blue;
+    color: white;
+}
+
+.logo {
+    max-width: 100px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.errorimage {
+    max-width: 50vh;
+    margin-left: 550px;
+    margin-top: 30px;
+}
+
+.error {
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.errortext {
+    font-size: 50px;
+    margin-left: 550px;
+    margin-top: 30px;
+}
+
+
+@media only screen and (max-width: 630px) {
+
+    .heading {
+        font-size: 30px;
+
+    }
+
+    .logo {
+        max-width: 63px;
+    }
+
+    .input-city {
+        min-width: 15rem;
+        min-height: 1.37rem;
+    }
+
+    .city-search {
+        margin-left: 8.5vw;
+        margin-top: 1rem;
+
+    }
+
+    .search-module {
+        flex-direction: column;
+    }
+
+    .search-button {
+        min-width: 3rem;
+        min-height: 2.75rem;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .unit-toggle {
+        margin-left: 16.9rem;
+        margin-top: 1.5rem;
+        width: 4.07rem;
+
+    }
+
+
+    .toggle-option {
+
+        padding: 6px;
+        margin-right: 10px;
+
+    }
+
+    .errorimage {
+        max-width: 30vh;
+        margin-left: 70px;
+        margin-top: 90px;
+    }
+
+    .errortext {
+        font-size: 30px;
+        margin-left: 82px;
+
+    }
+
+    .foo-bar {
+        margin-left: 60px;
+        margin-top: 40px;
+    }
+}

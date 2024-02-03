@@ -1,0 +1,101 @@
+.cont1 {
+    min-width: 40vw;
+    margin-top: 2rem;
+    color: whitesmoke;
+    margin-left: 3rem;
+}
+
+
+.today {
+    font-size: 25px;
+    font-weight: 100;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
+}
+
+.city {
+    font-size: 45px;
+    font-weight: 700;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
+}
+
+.temperature {
+    font-size: 50px;
+    margin-left: 2rem;
+    margin-top: 18px;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 200;
+}
+
+
+.weather-logo {
+    max-width: 25px;
+    margin-left: 10px;
+
+}
+
+.cont2 {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-top: 40px;
+}
+
+.humidity {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: lighter;
+}
+
+.humi-image {
+    margin-left: 15px;
+
+}
+
+.desc {
+    font-size: 25px;
+    margin-left: 40px;
+    font-weight: lighter;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
+}
+
+@media only screen and (max-width: 630px) {
+
+    .cont1 {
+
+        margin-top: 2rem;
+        margin-left: 2rem;
+
+    }
+
+    .temperature {
+
+        margin-left: 3.3rem;
+        margin-bottom: 1rem;
+
+    }
+
+    .desc {
+        margin-left: 3.5rem;
+
+    }
+
+    .humidity {
+        font-size: 13.5px;
+        margin-bottom: 20px;
+
+
+    }
+
+    .humi-image {
+        margin-left: 5px;
+
+
+    }
+
+    .cont2 {
+        gap: 13px;
+        margin-top: 55px;
+    }
+
+}
